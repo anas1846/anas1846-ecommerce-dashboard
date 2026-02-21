@@ -1,0 +1,165 @@
+input{
+    padding: 20px;
+    width: 80%;
+    border: none ;
+
+    outline: none;
+
+  
+}
+.Dashboard{
+   
+    padding: 20px;
+    width:100%;
+    flex: 1;
+    height: 72px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 10px;
+   
+}
+.bell{
+    border-left: 1px solid rgba(0, 0, 0, 0.274);
+    border-right: 1px solid rgba(0, 0, 0, 0.274);
+    height:72px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-direction: column;
+    
+}
+
+.show {
+  padding: 12px;
+  cursor: pointer;
+  position: relative;
+}
+
+.box {
+  margin-top: 10px;
+  
+  background:white;
+  color: black;
+  position: absolute;
+  top: 63px;
+  width: 350px;
+  height: auto;
+ 
+  
+}
+.icon{
+  background-color:#e4e4e4 ;
+  display: flex;
+  align-items: center;
+height:  40px;
+border-radius: 100%;
+padding: 10px;
+   
+}
+
+
+.Analytisc{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    gap:10px ;
+    color: white;
+    width: 100%;
+    height:100% ;
+  background-color:  #F5F6F8;
+  padding: 15px;
+
+   
+}
+.Analytisc:active{
+  border: 2px solid black;
+  
+}
+
+.content p{
+  font-size: 12px;
+  width: 260px;
+  color: black;
+}
+
+.content h4{
+  margin-bottom: 5px;
+  color: #8B97AB;
+  font-size: 14px;
+}
+
+.notifation{
+   
+    height:  40px;
+    background-color:#F5F6F8 ;
+    display: flex;
+    align-items: center;
+ justify-content: center;
+   padding: 10px;
+
+
+}
+.notifation:active{
+  border: 2px solid black;
+}
+.notifation button{
+  background-color: #F5F6F8;
+  border: none;
+}
+
+.profile img{
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.profile{
+  display: flex;
+  align-items: center;
+  gap:15px ;
+  margin-left: 20px;
+ padding-top: 10px;
+  padding-bottom: 10px;
+
+ 
+}
+
+.about{
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 14px;
+}
+.box2{
+position: absolute;
+top: 70px;
+background-color: white;
+width: 24.5vh;
+font-size: 14px;
+
+}
+
+.logout{
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  gap:15px ;
+  padding-left: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.274);
+ 
+}
+
+.seasearch-section{
+  width: 200%;
+  background-color: white;
+}

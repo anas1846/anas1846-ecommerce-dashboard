@@ -1,0 +1,19 @@
+.chart-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Legend text color */
+.recharts-legend-item-text {
+  color: #555 !important;
+  font-weight: 500;
+  margin-left: 4px;
+}
+
+/* Y-Axis labels spacing */
+.recharts-cartesian-axis-tick-value {
+  font-family: inherit;
+}

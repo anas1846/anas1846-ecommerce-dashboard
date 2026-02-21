@@ -1,0 +1,22 @@
+.layout {
+  display: flex;
+}
+
+.navbar {
+  width: 250px;
+  position: fixed;
+  height: 100vh;
+  left: 0;
+  top: 0;
+}
+
+.main-content {
+  margin-left: 250px;
+  width: calc(100% - 250px);
+  padding: 20px;
+  
+}
+
+.section {
+  width: 100%;
+}

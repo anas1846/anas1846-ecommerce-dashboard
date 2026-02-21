@@ -1,0 +1,54 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+
+}
+
+.dropdown-menu {
+  position: absolute;
+ /* bottom: -40%; */
+
+  margin-top: 6px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  min-width: 160px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+  z-index: 9999;
+}
+
+.days {
+  padding: 10px;
+}
+
+.days:hover {
+  background: #f5f5f5;
+}
+
+
+
+
+.week{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction:row;
+    padding: 20px;
+  border-top: 1px solid #d7d7d769  ;
+
+  width: 100%;
+ 
+
+
+}
+
+
+

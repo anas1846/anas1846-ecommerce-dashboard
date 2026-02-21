@@ -1,0 +1,51 @@
+.navbar{
+
+    height: 200vh;
+    width: 18%;
+    background-color:#ffffff;
+    
+
+
+
+
+}
+.logo{
+    padding: 20px;
+    padding-left: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.226);
+    color: #007bff ;  
+
+}
+ul li {
+    color: white;
+    text-decoration: none;
+}
+.pages{
+    display: flex;
+    flex-direction: column;
+   
+}
+ .page{
+    text-decoration: none;
+    color: #007bff;
+    font-size: 18px;
+   width: 100vh;
+  
+
+}
+ul{
+    width: 100%;
+}
+.new-item{
+    padding: 15px;
+ 
+   
+}
+
+  .new-item :hover{
+    /* background-color:black; */
+    border-left:3px solid #007bff;
+    cursor: pointer;
+    padding: 15px;
+   
+}

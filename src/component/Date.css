@@ -1,0 +1,19 @@
+.start{
+
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #bbb8b8d3 ;
+    
+}
+
+.date{
+    display: flex;
+   
+}
+
+.calender{
+    padding: 10px;
+}
