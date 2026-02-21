@@ -1,17 +1,16 @@
 {
-  "homepage":"https://github.com/anas1846/ecommerce-dashboard",
+  "homepage": "https://github.com/anas1846/ecommerce-dashboard",
   "name": "dashbored",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
-"deploy": "gh-pages -d dist",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
-
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.1.0",
