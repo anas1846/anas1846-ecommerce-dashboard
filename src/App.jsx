@@ -1,6 +1,6 @@
 import './App.css'
 import { createHashRouter, RouterProvider } from 'react-router-dom'
-import viteLogo from '/vite.svg'
+
 import Layout from './component/Layout'
 import Dashboard from './component/Dashboard'
 import Posts from './component/Posts'
